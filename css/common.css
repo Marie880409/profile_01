@@ -1,0 +1,18 @@
+
+.section_style {
+    text-align: center;
+    padding: 4rem;
+}
+
+.section_title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--color-accent);
+    
+}
+
+.section_description {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    
+}
