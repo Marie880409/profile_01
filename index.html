@@ -14,27 +14,126 @@
     <meta property="og:url" content="https://marie880409.github.io/profile_01/index.html">
     <meta property="og:image" content="./Images/thumb.jpg">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+    <link href="./css/main_home.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <script src="./js/main.js" defer> </script>
 
     <style type="text/css" rel="stylesheet">
-        body {
-            font-family: 'Roboto Slab', serif;
+        html, body {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,h2,h3,p,ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            /*colors*/
+                --color-white: #fff;
+                --color-black: #050a13;
+                --color-blue: #03e8f9;
+                --color-orange: #fd6413;
+                --color-gray: #1b1e26;
+            /*app colors*/  
+                --color-primary: var(--color-black);
+                --color-primary-varian: var(--color-gray);
+
+                --color-accent: var(--color-blue);
+                --color-accent-variant: var(--color-orange);
+                --color-text: var(--color-white);
+        }
+        * {
+            box-sizing: border-box;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: var(--color-text)
         }
     </style>
+   
 
 </head>
 <body>
-    포트폴리오 시작 this is never that
+    <!--------------헤더시작----------------->
+    <header class="header"> 
+        <div class="header_logo">
+            <img class="header_logo_img" src="http://endles1115.dothome.co.kr/Marie/images/favicon.ico" alt:logo />
+            <h1 class="header_logo_title">
+                <a href="#"> INHYE LEE : MARIE K</a>
+            </h1>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_menu">
+                <li><a class="header_menu_item active" href="#home"> Home </a></li>
+                <li><a class="header_menu_item" href="#about"> About </a></li>
+                <li><a class="header_menu_item" href="#skills"> Skills </a></li>
+                <li><a class="header_menu_item" href="#work"> My Work </a></li>
+                <li><a class="header_menu_item" href="#testimonial"> Testimonial </a></li>
+                <li><a class="header_menu_item" href="#contact"> Contact </a></li>
+            </ul>
+        </nav>
+        <!----------햄버거버튼------------->
+        <div class="hamburger">
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </div>
+    </header>
 
+    <!--------------main 시작 ----------------->
+    <main>
+        <!----home 시작------->
+        <section id="home" class="section_style">
+            <div class="home_container">
+                <img class="home_avatar" src="http://endles1115.dothome.co.kr/Marie/images/favicon.ico" width="250">
+                <h2 class="section_title">
+                    Hello <br/>
+                    I &#39m <strong class="home_title-strong"> Web Designer </strong>
+                    INHYE LEE 
+                </h2>
+                <p class="section_description"> A promotion designer </p>
+                <a class="section_contact" href="#contact"> Contact me </a>
+            </div>    
+        </section>
+        <!--- about 시작----->
+        <section id="about">
+            본인 소개
+        </section>
+        <!---skill 시작----->
+        <section id="skills">
+            본인 스킬 소개 
+        </section>
+        <!--- work 시작 -->
+        <section id="work">
+            이전에 제작했던 콘텐츠 소개
+        </section>
+        <!----지인 추천글----->
+        <section id="testimonial">
+            주변 지인 추천글
+        </section>
+        <!---맨위로 올리기 시작 -->
+        <aside>
+            TOP 버튼
+        </aside>
+    </main>
+    <!--------------footer 시작 ----------------->
+    <footer>
+        footer 시작
+    </footer>
 </body>
 </html>
