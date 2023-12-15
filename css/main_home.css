@@ -1,0 +1,42 @@
+#home {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 5rem 1rem;
+    padding-top:7rem;
+    text-align: center;
+}
+    .home_avatar {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 3px solid var(--color-accent);
+    }
+    .section_title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        line-height:45px;
+        padding:5px;
+    }
+        .home_title-strong {
+            color: var(--color-accent)
+        }
+    .section_description {
+        font-size: 1.3rem;
+    }    
+    .section_contact {
+        display: inline-block;
+        background-color: var(--color-accent);
+        color: var(--color-black);
+        margin: 1rem;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: all 1s;
+    }
+    .section_contact:hover {
+        background-color: transparent;
+        color: var(--color-accent);
+        outline: 2px solid var(--color-accent);
+        transition: all 1s;
+    }
