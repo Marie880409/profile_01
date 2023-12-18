@@ -14,21 +14,29 @@
     <meta property="og:url" content="https://marie880409.github.io/profile_01/index.html">
     <meta property="og:image" content="./Images/thumb.jpg">
 
-    
+    <!---------구글 아이콘------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!--------------------------------->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+    <link href="./css/myskills.css" rel="stylesheet">
+    <link href="./css/aboutme.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
     <link href="./css/main_home.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <script src="./js/main.js" defer> </script>
 
     <style type="text/css" rel="stylesheet">
         html, body {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'Roboto Slab', serif;
             font-size: 10pt;
             margin: 0;
             padding: 0;
@@ -48,7 +56,7 @@
                 --color-gray: #1b1e26;
             /*app colors*/  
                 --color-primary: var(--color-black);
-                --color-primary-varian: var(--color-gray);
+                --color-primary-variant: var(--color-gray);
 
                 --color-accent: var(--color-blue);
                 --color-accent-variant: var(--color-orange);
@@ -81,10 +89,10 @@
             <ul class="header_menu">
                 <li><a class="header_menu_item active" href="#home"> Home </a></li>
                 <li><a class="header_menu_item" href="#about"> About </a></li>
-                <li><a class="header_menu_item" href="#skills"> Skills </a></li>
-                <li><a class="header_menu_item" href="#work"> My Work </a></li>
-                <li><a class="header_menu_item" href="#testimonial"> Testimonial </a></li>
-                <li><a class="header_menu_item" href="#contact"> Contact </a></li>
+                <li><a class="header_menu_item" href="skills"> Skills </a></li>
+                <li><a class="header_menu_item" href="work"> My Work </a></li>
+                <li><a class="header_menu_item" href="testimonial"> Testimonial </a></li>
+                <li><a class="header_menu_item" href="contact"> Contact </a></li>
             </ul>
         </nav>
         <!----------햄버거버튼------------->
@@ -106,25 +114,150 @@
                     I &#39m <strong class="home_title-strong"> Web Designer </strong>
                     INHYE LEE 
                 </h2>
-                <p class="section_description"> A promotion designer </p>
+                <p class="section_description"> A Promotion Designer </p>
                 <a class="section_contact" href="#contact"> Contact me </a>
             </div>    
         </section>
         <!--- about 시작----->
-        <section id="about">
-            본인 소개
+        <section id="about" class="section_style" max-container>
+            <h2 class="section_title"> About Me </h2>
+                <p class="section_description">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. In sint, officia 
+                    nesciunt possimus accusantium quo. 
+                    Laboriosam, nisi blanditiis qui quo illo 
+                    soluta quod deleniti similique non pariatur 
+                    in hic. Ullam
+                </p>
+                <ul class="about_content">
+                    <li class="about_box">
+                        <span class="material-symbols-outlined about_icon">
+                            app_registration
+                            </span>
+                        <p class="about_title"> Front_end </p>
+                        <p class="about_text"> HTML, CSS, JavaScript, TypeScript, React </p>
+                    </li>
+                    <li class="about_box">
+                        <span class="material-symbols-outlined about_icon">
+                            draw_abstract
+                            </span>
+                        <p class="about_title"> Design </p>
+                        <p class="about_text"> Photoshop, Illustrator, Figma </p>                   
+                    </li>
+                    <li class="about_box">
+                        <span class="material-symbols-outlined about_icon">
+                            more
+                            </span>
+                        <p class="about_title"> ETC </p>
+                        <p class="about_text"> Marketing, Language </p>                   
+                    </li>
+                </ul>
+            
         </section>
         <!---skill 시작----->
-        <section id="skills">
-            본인 스킬 소개 
+        <section id="skills" class="section_style">
+            <h2> My Skills </h2>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. In sint, officia 
+                    nesciunt possimus accusantium quo. 
+                    Laboriosam, nisi blanditiis qui quo illo 
+                    soluta quod deleniti similique non pariatur 
+                    in hic. Ullam
+                </P>
+
+                <div class="skills_content">
+                    <section class="skills_coding">
+                        <h3 class="skills_title"> Coding Skills </h3>
+                    
+                        <ul>
+                            
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> HTML5 </span>
+                                    <span> 98% </span>
+                                </div>
+                                <div class="bar_bg">
+                                    <div class="bar_value" style="width:98%"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> CSS3 </span>
+                                    <span> 90% </span>
+                                </div>
+                                <div class="bar_bg">
+                                    <div class="bar_value" style="width:90%"> </div>
+                                </div>
+                            </li>
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> JavaScript </span>
+                                    <span> 80% </span>
+                                </div>    
+                                <div class="bar_bg">    
+                                    <div class="bar_value" style="width:85%"> </div>
+                                </div>
+                            </li>     
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> React </span>
+                                    <span> 76% </span>
+                                </div>    
+                                <div class="bar_bg">    
+                                    <div class="bar_value" style="width:76%"> </div>
+                                </div>
+                            </li>     
+                                
+                               
+                        </ul>
+                    </section>    
+                    <section class="skills_tools">
+                        <h3 class="skills_title"> Tools, License 
+                            
+                        </h3>
+                            <ul>
+                                <li> Photoshop </li>
+                                <li> Illustrator </li>
+                                <li> Figma </li>
+                                <li> Etc </li>
+                            </ul>
+                    </section>
+                    <section class="skills_etc">
+                        <h3 class="skills_title"> etc </h3>
+                        <ul>
+                            <li> English </li>
+                            <li> Japanese </li>
+                            <li> Kendo </li>
+                            
+                        </ul>
+                    </section>
+                </div>
         </section>
         <!--- work 시작 -->
-        <section id="work">
-            이전에 제작했던 콘텐츠 소개
+        <section id="work" class="section_style">
+            <h2> My Work </h2>
+            <P>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. In sint, officia 
+                nesciunt possimus accusantium quo. 
+                Laboriosam, nisi blanditiis qui quo illo 
+                soluta quod deleniti similique non pariatur 
+                in hic. Ullam
+            </P>
         </section>
         <!----지인 추천글----->
-        <section id="testimonial">
-            주변 지인 추천글
+        <section id="testimonial" class="section_style">
+            <h2> Testimonial </h2>
+            <P>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. In sint, officia 
+                nesciunt possimus accusantium quo. 
+                Laboriosam, nisi blanditiis qui quo illo 
+                soluta quod deleniti similique non pariatur 
+                in hic. Ullam
+            </P>
         </section>
         <!---맨위로 올리기 시작 -->
         <aside>
@@ -132,8 +265,16 @@
         </aside>
     </main>
     <!--------------footer 시작 ----------------->
-    <footer>
-        footer 시작
+    <footer id="contact" class="section_style">
+        <h2> Contact </h2>
+        <P>
+            Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. In sint, officia 
+            nesciunt possimus accusantium quo. 
+            Laboriosam, nisi blanditiis qui quo illo 
+            soluta quod deleniti similique non pariatur 
+            in hic. Ullam
+        </P>
     </footer>
 </body>
 </html>
