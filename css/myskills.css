@@ -20,6 +20,7 @@
     .skills_tools {
         grid-area: b;
         padding: 1rem;
+        
         background-color: var(--color-primary-variant);
         filter: brightness(160%);
     }
@@ -43,9 +44,24 @@
         .bar_bg {
             width: 100%;
             height: 3px;
-            background-color: var(--color-primary-variant);
+            background-color: rgb(48, 47, 47);
         }
             .bar_value {
                 height: 3px;
                 background-color: var(--color-accent);
             }
+    .skills_title {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 1rem;
+        font-size: 1.5rem;
+
+    }       
+        .bar_text_03 {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem;
+        }
