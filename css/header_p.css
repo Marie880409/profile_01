@@ -1,0 +1,103 @@
+header {
+    position: relative;
+    width: 100%;
+    height:400px;
+    background: var(--color-black);
+}
+
+.logo_title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1rem;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    
+}
+    .logo_title > h1 > a {
+        color: var(--color-main);
+    }
+
+    .icon {
+        width: 8px;
+        height: 8px;
+        background-color: var(--color-main);
+        rotate: 45deg;
+        margin: 1rem;
+    }
+    
+    .line {
+        width: 80%;
+        border: 0.5px solid var(--color-main);
+        
+        
+    }
+.title_01 {
+    position: relative;
+    clear: both;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 1.3rem;
+}
+
+
+    .header_title {
+        box-sizing: border-box;
+        width: 25%;
+        height: 100px;
+        margin: 0 auto;
+        text-align: left;
+        font-family: 'Abril Fatface', serif;
+        font-size: 3rem;
+        color: var(--color-main);
+        
+    }
+
+    .sub_title {
+        box-sizing: border-box;
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 1.2rem;
+        padding-top: 0.2rem;
+        font-size: 1.3rem;
+        color: var(--color-white);
+        
+    }
+
+.top_button_all {
+    position: relative;
+    width: 30%;
+    height: 30px;
+    padding: 15px;
+    margin: 0 auto;
+    
+}
+    .menu_all {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2rem;
+
+    }
+
+        .menu_each {
+            width: 100%;
+            color: white;
+            transition: all 0.4s;
+        }
+        .menu_each:hover {
+            box-sizing: border-box;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--color-main);
+            transition: all 0.4s;
+        }
+
