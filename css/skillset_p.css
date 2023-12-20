@@ -1,0 +1,52 @@
+
+.section_02 {
+    position: relative;
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 300px;
+
+    display: grid;
+    grid-template-areas: 
+        "a b c"
+    ;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+    .skill_set {
+        position: relative;
+        width: auto;
+        height: 700px;
+
+        display: grid;
+        grid-template-areas: 
+        "d"
+        "e"
+        "f"
+        ;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        background: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill_text1 {
+        grid-area: f;
+        height: 150px;
+        margin: 1rem;
+    }
+        .skill_title {
+            font-size:2rem;
+            color: var(--color-main);
+            font-family: 'Abril Fatface', serif;
+            text-align: center;
+            padding: 1rem;
+        }
+        .skill_ex {
+            font-size: 1.3rem;
+            text-align: center;
+        }
