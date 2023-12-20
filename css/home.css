@@ -1,0 +1,13 @@
+.arrow_up {
+    position: fixed;
+    text-align: center;
+    right: 2rem;
+    bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+    line-height: 3rem;
+    border-radius: 100%;
+    background-color: var(--color-primary);
+    box-shadow: 2px 2px 0px 0px var(--color-accent);
+}
