@@ -1,0 +1,97 @@
+
+@media all and (max-width:768px) {
+    .section {
+        padding:3rem 2rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+    .home {
+        padding: 3rem;
+    }
+    .home_title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+
+    .header {
+        flex-flow: column;
+        align-items: start;
+        background-color: var(--color-primary);
+    }
+    .header_nav {
+        width: 100%;
+    }
+
+
+        .header_menu {
+            display: none;
+            flex-direction: column;
+            text-align: center;
+            padding: 1rem 4rem;
+            gap: 1rem;
+        }
+        .header_menu.open {
+            display: flex;
+        }
+        .hamburger {
+            display: block;
+            color: var(--color-white);
+            font-size: 1.5rem;
+            position: absolute;
+            top: 1.4rem;
+            right: 1rem;
+            border: 0;
+        }
+        /*--------------about 부분-------------*/
+
+        .about_content {
+            flex-direction: column;
+            align-items: center;
+        }
+        .about_box {
+            width: 100%;
+        }
+        /*--------------skills 부분-------------*/
+        .skills_content {
+            display: grid;
+            width: 100%;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+            margin: 2rem auto;
+            grid-template-areas: 
+            "a"
+            "b"
+            "c";
+        }
+            .skills_coding {
+                grid-area: a;
+                padding: 1rem;
+                background-color: var(--color-primary);
+            }
+            .skills_tools {
+                grid-area: b;
+                padding: 1rem;
+                background-color: var(--color-primary);
+                filter: brightness(150%)
+            }
+            .skills_etc {
+                grid-area: c;
+                padding: 1rem;
+                background-color: var(--color-primary);
+                filter:brightness(120%);
+            }
+            /*--------------my work 부분-------------*/
+            .category {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+                .category_button {
+                    width: 100%;
+                }
+}
