@@ -9,6 +9,11 @@
     justify-content: space-between;
     align-items: center;
     z-index: 9999;
+    transition: all 200ms;
+}
+.header.header-dark {
+    background-color: #f00;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
 }
     .header_logo {
         display: flex;
