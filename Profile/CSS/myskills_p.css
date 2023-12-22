@@ -1,0 +1,130 @@
+
+.section_03 {
+    width: auto;
+    height: 800px;
+    background: var(--color-main);
+}
+    .section_03_title {
+        position: relative;
+        width: auto;
+        height: 80px;
+        margin: 0 auto;
+        padding: 6rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+        .section_title {
+            font-size: 2rem;
+            color: var(--color-white);
+            font-family: 'Abril Fatface', serif;
+            margin-top: 20px;
+        }
+        .section_text {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: var(--color-white);
+        }
+    .skill_box_all {
+        width: 1000px;
+        height: 300px;
+        position: relative;
+        display: grid;
+        grid-template-areas:  
+        "aa   bb"
+        "aa   cc"
+        ;
+
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 6fr 4fr;
+        
+        margin: 0 auto;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        
+    }    
+
+        .skill_box1 {
+            display: grid;
+            grid-area: aa;
+            width: auto;
+            height: 300px;
+            margin-bottom: 6rem;
+            margin-right: 1.5rem;
+            
+
+        }
+            .section_title2 {
+                font-family: 'Abril Fatface', serif;
+                text-align: center;
+                font-size: 1.8rem;
+                margin: 1rem;
+                color: var(--color-main);
+            }
+
+
+        .skill_box2_1 {
+
+            display: grid;
+            grid-area: bb;
+            width: auto;
+            height: 140px;    
+            border-radius: 15px;
+            background: black
+            
+            
+        }
+            .section_title3 {
+                font-family: 'Abril Fatface', serif;
+                text-align: center;
+                font-size: 1.5rem;
+                margin-top: 3rem;
+                color: var(--color-main);
+            }    
+            .section_text {
+                text-align: center;
+                font-size: 1.2rem;
+                color:var(--color-white);
+                margin-bottom: 1.3rem;
+            }
+
+        .skill_box2_2 {
+            display: grid;
+            grid-area: cc;
+            width: auto;
+            height: 140px;
+            border-radius: 15px;
+            background: black;
+            
+        
+        }
+
+    .skills_bar {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0.5rem;
+    }    
+        .bar_text {
+            display: flex;
+            font-family: 'Abril Fatface', serif;
+            justify-content: space-between;
+            font-size: 1.3rem;
+            color:var(--color-white)
+        }
+        .bar_bg {
+            width: 100%;
+            height: 8px;
+            border-radius: 5px;
+            background-color: #3D3939;
+        }
+            .bar_value{
+                height: 8px;
+                border-radius: 5px;
+                background-color: var(--color-white);
+            }
