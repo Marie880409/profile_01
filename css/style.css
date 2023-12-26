@@ -46,5 +46,6 @@
             }
     .hamburger {
         display: none;
+        cursor: pointer;
     }        
           
