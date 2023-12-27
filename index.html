@@ -27,7 +27,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-    <link href="./css/home.css" rel="stylesheet">
+    
     <link href="./css/testimonial.css" rel="stylesheet">
     <link href="./css/work.css" rel="stylesheet">
     <link href="./css/myskills.css" rel="stylesheet">
@@ -37,6 +37,7 @@
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/footer.css" rel="stylesheet">
     <link href="./css/media_768.css" rel="stylesheet">
+    <link href="./css/top.css" rel="stylesheet">
     <script src="./js/main.js" defer> </script>
 
     <style type="text/css" rel="stylesheet">
@@ -81,7 +82,9 @@
     <!-----------자바스크립트 시작----------------------->
     <script type="module" src="./js/main.js" defer> </script>
     <script type="module" src="./js/main_02.js" defer> </script>
-
+    <script type="module" src="./js/main_03.js" defer> </script>
+    <script type="module" src="./js/main_04.js" defer> </script>
+    <script type="module" src="./js/main_05.js" defer> </script>
 </head>
 <body>
     <!--------------헤더시작----------------->
@@ -123,8 +126,14 @@
                 </h2>
                 <p class="section_description"> A Promotion Designer </p>
                 <a class="section_contact" href="#contact"> Contact me </a>
-            </div>    
+            </div>
+            <div class="custom-shape-divider-bottom-1703648856">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
         </section>
+        
         <!--- about 시작----->
         <section id="about" class="section_style" max-container>
             <h2 class="section_title"> About Me </h2>
@@ -248,13 +257,13 @@
             <P class="description"> Projects </P>
 
             <ul class="category">
-                <li> <button class="category_button category_selected"> All <span class="work_count"> 8 </span> </button> </li>
-                <li> <button class="category_button"> Front-end <span class="work_count"> 3 </span> </button> </li>
-                <li> <button class="category_button"> Design <span class="work_count"> 3 </span> </button> </li>
-                <li> <button class="category_button"> Mobile <span class="work_count"> 2 </span> </button> </li>
+                <li> <button class="category_button category_selected" data-category="all"> All <span class="work_count"> 8 </span> </button> </li>
+                <li> <button class="category_button" data-category="frontend"> Front-end <span class="work_count"> 3 </span> </button> </li>
+                <li> <button class="category_button" data-category="design"> Design <span class="work_count"> 3 </span> </button> </li>
+                <li> <button class="category_button" data-category="mobile"> Mobile <span class="work_count"> 2 </span> </button> </li>
             </ul>
             <ul class="project_all">
-                <li class="project">
+                <li class="project" data-type="all">
                     <a href="#" target="_blank">
                         <img src="./Images/1.png" alt="project_01" class="project_img"/>
                         <div class="project_text">
@@ -263,7 +272,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="frontend">
                     <a href="#" target="_blank">
                         <img src="./Images/2.png" class="project_img"/>
                         <div class="project_text">
@@ -272,7 +281,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project"> 
+                <li class="project" data-type="frontend"> 
                     <a href="#" target="_blank">
                         <img src="./Images/3.png" class="project_img"/>
                         <div class="project_text"> 
@@ -281,7 +290,7 @@
                         </div>    
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img src="./Images/4.png" class="project_img"/>
                         <div class="project_text">
@@ -290,7 +299,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img src="./Images/5.png" class="project_img"/>
                         <div class="project_text">
@@ -299,7 +308,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img src="./Images/6.png" class="project_img"/>
                         <div class="project_text">
@@ -308,7 +317,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="mobile">
                     <a href="#" target="_blank">
                         <img src="./Images/7.png" class="project_img"/>
                         <div class="project_text">
@@ -317,7 +326,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="mobile">
                     <a href="#" target="_blank">
                         <img src="./Images/8.png" class="project_img"/>
                         <div class="project_text">
