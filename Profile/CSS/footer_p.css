@@ -1,0 +1,64 @@
+footer {
+    width: auto;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    background: pink;
+    overflow: hidden;
+   
+}
+  
+
+.contact {
+    position: relative;
+    font-size: 2.5rem;
+    color: var(--color-white);
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    margin: 2rem;
+    
+
+   
+}
+
+
+
+.divide_f {
+    position: relative;
+    width: 1500px;
+    height: auto;
+    border-top: 0.6px solid var(--color-white);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.name_f {
+    position: relative;
+    font-size: 1.7rem;
+    color: var(--color-main);
+    font-family: 'Abril Fatface', serif;
+   
+    }
+.add_f {
+    position: relative;
+    color: var(--color-white);
+        
+    }
+
+
+    .top_button {
+        position: fixed;
+        text-align: center;
+        right: 2rem;
+        bottom: 2rem;
+        width: 3rem;
+        height: 3rem;
+        justify-content: center;
+        line-height: 4rem;
+        border-radius: 100%;
+        color: var(--color-main);
+        background: var(--color-black);
+        box-shadow: 2px 2px 0px 0px var(--color-main);
+    }
