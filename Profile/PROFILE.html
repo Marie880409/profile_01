@@ -46,13 +46,13 @@
     <link href="./css/main_p.css" rel="stylesheet">
     <link href="./CSS/myskills_p.css" rel="stylesheet">
     <link href="./CSS/myworks_p.css" rel="stylesheet">
-
+    <link href="./CSS/footer_p.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -96,6 +96,7 @@
 <!----------------main 시작------------------------->    
     <main>
         <main class="main_bg"> &nbsp;
+            <div class="main_bg2"> </div>    
             <!-------about mii------------->
             <section class="section_01">
                 <div class="about_me">
@@ -119,16 +120,16 @@
                     </div>
 
                 </div>
+                
             </section>
 
             <!-------스킬셋 시작 ------------->
             <section class="section_02">
                 <div class="skill_set">
-                    <a href="#" target="_blank">
-                        <img src=# class="skill_img">
+                    <a href="#" target="_blank" class="skill_img">
                     </a>
                     <div class="skill_text1">
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined" style="font-size:35pt; text-align: center;">
                             integration_instructions
                         </span>
                         <h2 class="skill_title"> Front+end </h2>
@@ -136,24 +137,33 @@
                     </div>
                 </div>
                 <div class="skill_set">
-                    <a href="#" target="_blank">
-                        <img src="#">
+                    <a href="#" target="_blank" class="skill_img2">
+                    
                     </a>
-                    <div class="skill_text1">
+                    <div class="skill_text2">
+                        <span class="material-symbols-outlined" style="font-size:35pt; text-align: center;">
+                            heart_plus
+                            </span>
                         <h2  class="skill_title"> Design </h2>
                         <p class="skill_ex"> Photoshop, Illustrator, Figma </p>
                     </div>
                 </div>
                 <div class="skill_set">
-                    <a href="#" target="_blank">
-                        <img src="#">
+                
+                    <a href="#" target="_blank" class="skill_img">
+                
                     </a>
                     <div class="skill_text1">
+                        <span class="material-symbols-outlined" style="font-size:35pt; text-align: center;">
+                            note_stack
+                            </span>
                         <h2  class="skill_title"> ETC </h2>
                         <p class="skill_ex"> Marketing, Language </p>
                     </div>
                 </div>
-            </section> 
+               
+            </section>
+            
             <!-------skill 시작------------>
             <section class="section_03">
                 <div class="section_03_title">
@@ -225,34 +235,46 @@
             </section>
             <!-----works 시작--------------->
             <section class="section_04">
-                <h2> My Works </h2>
+                <h2 class="section_title"> My Works </h2>
                     <div class="works_all">
-                        <ul class="works_1">
-                            <li> img_1 </li>
-                            <li> img_2 </li>
-                            <li> img_3 </li>
-                            <li> img_4 </li>
-                        </ul>
-                        <ul class="works_2">
-                            <li> img_5 </li>
-                            <li> img_6 </li>
-                            <li> img_7 </li>
-                        </ul>
-                        <ul class="works_3">
-                            <li> img_8 </li>
-                            <li> img_9 </li>
-                            <li> img_10 </li>
-                        </ul>
+                        
+                            <li class="img_1 grid_cell"> <img src="./Images/1.png"> </li>
+                            <li class="img_2 grid_cell"> <img src="./Images/2.png"> </li>
+                            <li class="img_3 grid_cell"> <img src="./Images/3.png"> </li>
+                            <li class="img_4 grid_cell"> <img src="./Images/4.png"> </li>
+                       
+                            <li class="img_5 grid_cell"> <img src="./Images/5.png"> </li>
+                            <li class="img_6 grid_cell"> <img src="./Images/6.png"> </li>
+                            <li class="img_7 grid_cell"> <img src="./Images/fake.png"> </li>
+                        
+                            <li class="img_8 grid_cell"> <img src="./Images/1.png"> </li>
+                            <li class="img_9 grid_cell"> <img src="./Images/3.png"> </li>
+                            
+                        
                     </div>
             </section>
-            <aside>
-                TOP 
-            </aside>
+        <!----------------------footer 시작----------------->
+        <footer>
+            <div class="contact"> Contact Me :&#41; </div>
+            <div class="divide_f"> &nbsp; </div>
+            <div>
+                <p class="name_f"> Lee In Hye </p><br>
+                <p class="add_f"> marie_rhang@naver.com </p><br>
+                <p class="add_f"> 010-9905-5917 </p><br>
+            </div>
+    
+        </footer>
+        
+        <aside>
+            <a class="top_button" href="#home"> 
+                <span class="material-symbols-outlined" style="font-size: 2.4rem;">
+                        keyboard_double_arrow_up
+                    </span>
+                </a>        
+        </aside>
+            
         </main>
+
     </main>
-    <!----------------------footer 시작----------------->
-    <footer>
-        footer 시작
-    </footer>
 </body>
 </html>
