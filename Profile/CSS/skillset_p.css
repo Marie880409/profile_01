@@ -31,7 +31,6 @@
         ;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
-        background: white;
         justify-content: center;
         align-items: center;
     }
@@ -46,25 +45,49 @@
         height: 500px;
         
     }
+    .skill_img2 {
+        position: relative;
+        display: grid;
+        grid-area: f;
+        background-image: url(../Images/1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: auto;
+        height: 500px;
+        
+    }
 
         
         .skill_text1 {
             position: relative;
             display: grid;
-            grid-area: f;
+            grid-area: e;
             height: 150px;
-            margin: 1rem;
+            margin: 0 auto;
             text-align: center;
-           
             
         }
-            .material-symbols-outlined {
-                font-size: 2rem;
-                background: yellow;
-                
-
+        .skill_text2 {
+            position: relative;
+            display: grid;
+            grid-area: d;
+            height: 150px;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+            .skill_text1 > .material-symbols-outlined,
+            .skill_text2 > .material-symbols-outlined {
+                text-align: center;
+                padding-top: 10px;
+                padding-left: 7px;
+                color: var(--color-main);
             }
-        
+            .skill_text1 >.material-symbols-outlined:hover,
+            .skill_text2 >.material-symbols-outlined:hover {
+                    rotate: 15deg;
+                    transition: all 0.8s;
+                }
         
             .skill_title {
                 font-size:2rem;
@@ -72,8 +95,10 @@
                 font-family: 'Abril Fatface', serif;
                 text-align: center;
                 padding: 1rem;
+                margin-top: -1rem;
             }
             .skill_ex {
                 font-size: 1.3rem;
                 text-align: center;
+                color: var(--color-white);
             }
